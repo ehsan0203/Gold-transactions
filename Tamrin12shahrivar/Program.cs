@@ -16,6 +16,15 @@ builder.Services.AddDbContext<GemDbContext>(options =>
 {
     options.UseSqlServer("Data Source=EHSAN;Initial Catalog=GemRemove;Integrated Security=True;Trust Server Certificate=True");
 });
+builder.Services.AddCors(options =>
+{
+    options.AddDefaultPolicy(Builder =>
+    {
+        Builder.AllowAnyHeader();
+        Builder.AllowAnyMethod();
+        Builder.AllowAnyOrigin();
+    });
+});
 builder.Services.AddScoped<IGemRepository,SQLGemRepository>();
 builder.Services.AddAutoMapper(typeof(GemDto));
 var app = builder.Build();
@@ -30,7 +39,8 @@ if (app.Environment.IsDevelopment())
 app.UseHttpsRedirection();
 
 app.UseAuthorization();
-
+app.UseCors();
+app.UseRouting();
 app.MapControllers();
 
 app.Run();
