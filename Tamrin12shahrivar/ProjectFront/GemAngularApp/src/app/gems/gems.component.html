@@ -22,3 +22,29 @@
     </tr>
   </tbody>
 </table>
+<form [formGroup]="postformgem" (ngSubmit)="postGemSubmited()">
+  <div class="form-group">
+    <label for="date">تاریخ</label>
+    <input type="text" class="form-control" id="date" formControlName="data">
+  </div>
+  <div class="form-group">
+    <label for="weight">وزن</label>
+    <input type="text" class="form-control" id="weight" formControlName="weight">
+  </div>
+  <div class="form-group">
+    <label for="cutie">عیار</label>
+    <input type="text" class="form-control" id="cutie" formControlName="cutie">
+  </div>
+  <div class="form-group">
+    <label for="price">قیمت</label>
+    <input type="text" class="form-control" id="price" formControlName="price">
+  </div>
+  <div class="form-group">
+    <label for="status">وضعیت</label>
+    <input class="form-control" id="status" formControlName="status">
+
+    
+  </div>
+  <button type="submit" class="btn btn-primary">ثبت</button>
+</form>
+

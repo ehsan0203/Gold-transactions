@@ -40,7 +40,7 @@ namespace Tamrin12shahrivar.Controllers
             return Ok(Dto);
         }
 
-        [HttpPost("Create")]
+        [HttpPost]
         public async Task<IActionResult> Create([FromBody] GemRequestUpdateDto gemdto)
         {
             var domain = _mapper.Map<Gem>(gemdto);

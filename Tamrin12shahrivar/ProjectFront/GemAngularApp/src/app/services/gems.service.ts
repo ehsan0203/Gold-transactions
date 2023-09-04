@@ -13,4 +13,8 @@ export class GemsService {
   public getgems(): Observable<Gem[]> {
     return this.httpClient.get<Gem[]>("https://localhost:7132/api/Gem")
   }
+
+  public postgems(gem: Gem): Observable<Gem> {
+    return this.httpClient.post<Gem>("https://localhost:7132/api/Gem" , gem);
+  }
 }
