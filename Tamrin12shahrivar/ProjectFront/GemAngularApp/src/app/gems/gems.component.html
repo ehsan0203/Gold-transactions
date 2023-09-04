@@ -1,1 +1,24 @@
 <p>gems works!</p>
+<table class="table">
+  <thead>
+    <tr>
+      <th scope="col">#</th>
+      <th scope="col">تاریخ</th>
+      <th scope="col">وزن</th>
+      <th scope="col">اعیار</th>
+      <th scope="col">قیمت</th>
+      <th scope="col">وضعیت</th>
+
+    </tr>
+  </thead>
+  <tbody>
+    <tr *ngFor="let gem of gems;let i=index">
+      <th scope="row">{{i+1}}</th>
+      <td>{{gem.data}}</td>
+      <td>{{gem.weight}}</td>
+      <td>{{gem.cutie}}</td>
+      <td>{{gem.price}}</td>
+      <td>{{gem.status}}</td>
+    </tr>
+  </tbody>
+</table>

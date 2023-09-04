@@ -19,7 +19,7 @@ namespace Tamrin12shahrivar.Controllers
             _repository = repository;
         }
 
-        [HttpGet("GetAll")]
+        [HttpGet]
         public async Task<IActionResult> GetAll()
         {
            var Domain = await _repository.GetAllAsync();

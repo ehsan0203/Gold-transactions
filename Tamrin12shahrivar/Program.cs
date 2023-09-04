@@ -36,11 +36,13 @@ if (app.Environment.IsDevelopment())
     app.UseSwaggerUI();
 }
 
+app.UseHsts();
 app.UseHttpsRedirection();
-
+app.UseSwagger();
+app.UseSwaggerUI();
 app.UseAuthorization();
-app.UseCors();
 app.UseRouting();
+app.UseCors();
 app.MapControllers();
 
 app.Run();
