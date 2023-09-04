@@ -154,3 +154,9 @@ C:\Users\ehsan0203\source\repos\Tamrin12shahrivar\Gold-transactions\Tamrin12shah
 C:\Users\ehsan0203\source\repos\Tamrin12shahrivar\Gold-transactions\Tamrin12shahrivar\obj\Debug\net7.0\Tamrin12shahrivar.pdb
 C:\Users\ehsan0203\source\repos\Tamrin12shahrivar\Gold-transactions\Tamrin12shahrivar\obj\Debug\net7.0\Tamrin12shahrivar.genruntimeconfig.cache
 C:\Users\ehsan0203\source\repos\Tamrin12shahrivar\Gold-transactions\Tamrin12shahrivar\obj\Debug\net7.0\ref\Tamrin12shahrivar.dll
+C:\Users\ehsan0203\source\repos\Tamrin12shahrivar\Gold-transactions\Tamrin12shahrivar\bin\Debug\net7.0\ProjectFront\GemAngularApp\angular.json
+C:\Users\ehsan0203\source\repos\Tamrin12shahrivar\Gold-transactions\Tamrin12shahrivar\bin\Debug\net7.0\ProjectFront\GemAngularApp\package-lock.json
+C:\Users\ehsan0203\source\repos\Tamrin12shahrivar\Gold-transactions\Tamrin12shahrivar\bin\Debug\net7.0\ProjectFront\GemAngularApp\package.json
+C:\Users\ehsan0203\source\repos\Tamrin12shahrivar\Gold-transactions\Tamrin12shahrivar\bin\Debug\net7.0\ProjectFront\GemAngularApp\tsconfig.app.json
+C:\Users\ehsan0203\source\repos\Tamrin12shahrivar\Gold-transactions\Tamrin12shahrivar\bin\Debug\net7.0\ProjectFront\GemAngularApp\tsconfig.json
+C:\Users\ehsan0203\source\repos\Tamrin12shahrivar\Gold-transactions\Tamrin12shahrivar\bin\Debug\net7.0\ProjectFront\GemAngularApp\tsconfig.spec.json
